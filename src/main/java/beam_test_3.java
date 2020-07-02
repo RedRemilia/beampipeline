@@ -1,6 +1,7 @@
 import org.apache.beam.runners.direct.DirectRunner;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.coders.StringUtf8Coder;
+import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.options.PipelineOptions;
 import org.apache.beam.sdk.options.PipelineOptionsFactory;
 import org.apache.beam.sdk.transforms.Create;
@@ -101,8 +102,8 @@ public class beam_test_3 {
         //设定运行引擎，默认是DirectRunner，也就是本地运行模式
         options.setRunner(DirectRunner.class);
 
-//        run_1(options);
         run_2(options);
+
     }
 
 

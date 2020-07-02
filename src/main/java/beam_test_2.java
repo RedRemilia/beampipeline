@@ -87,7 +87,6 @@ public class beam_test_2 {
         //设定运行引擎，默认是DirectRunner，也就是本地运行模式
         options.setRunner(DirectRunner.class);
 
-//        run_1(options);
         run_2(options);
     }
 
