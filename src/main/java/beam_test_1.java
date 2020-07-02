@@ -57,6 +57,7 @@ public class beam_test_1 {
 
 
         p.run().waitUntilFinish();
+        System.out.print("");
 
 
     }
