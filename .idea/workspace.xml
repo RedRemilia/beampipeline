@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06657acb-6efa-4056-91df-0f74f96fa879" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/beam_test_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beam_test_1.java" afterDir="false" />
+    <list default="true" id="06657acb-6efa-4056-91df-0f74f96fa879" name="Default Changelist" comment="update pipeline_test_1">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Remilia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beam_test_1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beam_test_1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beam_test_1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beam_test_1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beam_test_1$MyOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beam_test_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beam_test_1.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,11 +23,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/beam_test_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+            <state relative-caret-position="411">
+              <caret line="79" column="67" lean-forward="true" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1178#1591#0" expanded="true" />
+                <element signature="e#1590#1591#0" expanded="true" />
+                <element signature="e#1714#2128#0" expanded="true" />
+                <element signature="e#2127#2128#0" expanded="true" />
+                <element signature="e#3561#4195#0" expanded="true" />
+                <element signature="e#4194#4195#0" expanded="true" />
+                <element signature="e#4388#4614#0" expanded="true" />
+                <element signature="e#4613#4614#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beam_test_2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,11 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.22.0/beam-sdks-java-core-2.22.0-sources.jar!/org/apache/beam/sdk/transforms/DoFn.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+            <state relative-caret-position="530">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.22.0/beam-sdks-java-core-2.22.0-sources.jar!/org/apache/beam/sdk/values/PCollectionTuple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="219" column="12" selection-start-line="219" selection-start-column="12" selection-end-line="219" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -41,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.22.0/beam-sdks-java-core-2.22.0-sources.jar!/org/apache/beam/sdk/transforms/ParDo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6156">
-              <caret line="388" column="13" selection-start-line="388" selection-start-column="13" selection-end-line="388" selection-end-column="13" />
+            <state relative-caret-position="154">
+              <caret line="770" column="40" selection-start-line="770" selection-start-column="40" selection-end-line="770" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -50,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.22.0/beam-sdks-java-core-2.22.0-sources.jar!/org/apache/beam/sdk/values/PCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5909">
+            <state relative-caret-position="424">
               <caret line="365" column="43" selection-start-line="365" selection-start-column="43" selection-end-line="365" selection-end-column="43" />
             </state>
           </provider>
@@ -72,8 +107,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/beam_test_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/beam_test_1.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -90,13 +126,15 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="149" />
-    <option name="y" value="73" />
-    <option name="width" value="1631" />
-    <option name="height" value="922" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="176" />
+    <option name="y" value="164" />
+    <option name="width" value="1632" />
+    <option name="height" value="1060" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -186,7 +224,7 @@
       <workItem from="1593601479180" duration="4313000" />
       <workItem from="1593659231837" duration="3263000" />
       <workItem from="1593664680972" duration="648000" />
-      <workItem from="1593665351741" duration="687000" />
+      <workItem from="1593665351741" duration="9651000" />
     </task>
     <task id="LOCAL-00001" summary="Git-">
       <created>1593662376304</created>
@@ -202,18 +240,48 @@
       <option name="project" value="LOCAL" />
       <updated>1593665614223</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Git-">
+      <created>1593666082635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593666082635</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update pipeline_test_1">
+      <created>1593676447576</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593676447576</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update pipeline_test_1">
+      <created>1593676626064</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593676626064</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9293000" />
+    <option name="totallyTimeSpent" value="18257000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="121" y="59" width="1315" height="743" extended-state="0" />
+    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49899396" visible="true" weight="0.2935561" />
-      <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.284689" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49899396" visible="true" weight="0.29302326" />
+      <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.28438538" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -221,17 +289,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28190744" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997195" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959327" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32733223" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3253857" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.21346469" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.38429174" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -261,7 +329,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Git-" />
-    <option name="LAST_COMMIT_MESSAGE" value="Git-" />
+    <MESSAGE value="update pipeline_test_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pipeline_test_1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.22.0/beam-sdks-java-core-2.22.0.jar!/org/apache/beam/sdk/options/PipelineOptions.class">
@@ -278,28 +347,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/beam_test_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -310,17 +362,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.22.0/beam-sdks-java-core-2.22.0-sources.jar!/org/apache/beam/sdk/transforms/ParDo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.22.0/beam-sdks-java-core-2.22.0-sources.jar!/org/apache/beam/sdk/values/TupleTag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6156">
-          <caret line="388" column="13" selection-start-line="388" selection-start-column="13" selection-end-line="388" selection-end-column="13" />
+        <state relative-caret-position="154">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <element signature="e#2204#2205#0" expanded="true" />
+            <element signature="e#2233#2234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-runners-direct-java/2.22.0/beam-runners-direct-java-2.22.0.jar!/org/apache/beam/runners/direct/DirectTransformExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-runners-direct-java/2.22.0/beam-runners-direct-java-2.22.0.jar!/org/apache/beam/runners/direct/DoFnLifecycleManagerRemovingTransformEvaluator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-runners-direct-java/2.22.0/beam-runners-direct-java-2.22.0.jar!/org/apache/beam/runners/direct/ParDoEvaluator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-runners-direct-java/2.22.0/beam-runners-direct-java-2.22.0.jar!/org/apache/beam/repackaged/direct_java/runners/core/SimplePushbackSideInputDoFnRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-runners-direct-java/2.22.0/beam-runners-direct-java-2.22.0.jar!/org/apache/beam/repackaged/direct_java/runners/core/SimpleDoFnRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.22.0/beam-sdks-java-core-2.22.0-sources.jar!/org/apache/beam/sdk/values/PCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5909">
+        <state relative-caret-position="424">
           <caret line="365" column="43" selection-start-line="365" selection-start-column="43" selection-end-line="365" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.22.0/beam-sdks-java-core-2.22.0-sources.jar!/org/apache/beam/sdk/values/PCollectionTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="219" column="12" selection-start-line="219" selection-start-column="12" selection-end-line="219" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/software/jdk 11/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.22.0/beam-sdks-java-core-2.22.0-sources.jar!/org/apache/beam/sdk/values/TupleTagList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+          <folding>
+            <element signature="e#2661#2662#0" expanded="true" />
+            <element signature="e#2694#2695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.22.0/beam-sdks-java-core-2.22.0-sources.jar!/org/apache/beam/sdk/transforms/ParDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="770" column="40" selection-start-line="770" selection-start-column="40" selection-end-line="770" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beam_test_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beam_test_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="79" column="67" lean-forward="true" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1178#1591#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1714#2128#0" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+            <element signature="e#3561#4195#0" expanded="true" />
+            <element signature="e#4194#4195#0" expanded="true" />
+            <element signature="e#4388#4614#0" expanded="true" />
+            <element signature="e#4613#4614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
         </state>
       </provider>
     </entry>
