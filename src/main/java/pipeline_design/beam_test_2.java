@@ -1,12 +1,12 @@
+package pipeline_design;
+
 import org.apache.beam.runners.direct.DirectRunner;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.coders.StringUtf8Coder;
-import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.options.PipelineOptions;
 import org.apache.beam.sdk.options.PipelineOptionsFactory;
 import org.apache.beam.sdk.transforms.Create;
 import org.apache.beam.sdk.transforms.DoFn;
-import org.apache.beam.sdk.transforms.Flatten;
 import org.apache.beam.sdk.transforms.ParDo;
 import org.apache.beam.sdk.values.*;
 
@@ -14,7 +14,7 @@ import java.util.*;
 
 import static java.util.Arrays.asList;
 
-public class beam_test_3 {
+public class beam_test_2 {
 
     //创建一个处理模式，输出多个结果
     private static void run_2(PipelineOptions options) {
@@ -36,13 +36,13 @@ public class beam_test_3 {
             public void processElement(ProcessContext d){
                 if(d.element().startsWith("a")){
                     d.output(startsWithATag, d.element());
-//                    System.out.append("以a开头的单词: ").append(d.element()).append("\n");
+                    System.out.append("以a开头的单词: ").append(d.element()).append("\n");
                 }else if(d.element().startsWith("b")){
                     d.output(startsWithBTag, d.element());
-//                    System.out.append("以b开头的单词: ").append(d.element()).append("\n");
+                    System.out.append("以b开头的单词: ").append(d.element()).append("\n");
                 }else{
                     d.output(startsWithCTag, d.element());
-//                    System.out.append("以c开头的单词: ").append(d.element()).append("\n");
+                    System.out.append("以c开头的单词: ").append(d.element()).append("\n");
                 }
             }
         }).withOutputTags(startsWithATag, TupleTagList.of(asList(startsWithBTag, startsWithCTag))));
@@ -52,7 +52,7 @@ public class beam_test_3 {
             @ProcessElement
             public void processElement(ProcessContext a){
                 a.output(a.element());
-//                System.out.println("集合A中的元素: "+a.element());
+                System.out.println("集合A中的元素: "+a.element());
             }
         }));
         /*
@@ -78,19 +78,6 @@ public class beam_test_3 {
 
          */
 
-        /*将上一步中分离的A，B，C 3个集合中的元素再组合到同一个数据集中，进行处理。使用了Flatten方法，Flatten方法运用于
-         * 同一种类型的集合，能够将多个pCollection的元素混合到同一个pCollection集合中*/
-        PCollectionList<String> collectionList = PCollectionList.of(mixedCollection.get(startsWithATag))
-                .and(mixedCollection.get(startsWithBTag)).and(mixedCollection.get(startsWithCTag));
-        PCollection<String> mergedPCollection = collectionList.apply(Flatten.pCollections());
-        mergedPCollection.apply("output all",ParDo.of(new DoFn<String, String>() {
-            @ProcessElement
-            public void processElement(ProcessContext all){
-                all.output(all.element());
-                System.out.println("混合数据集合中的元素有: "+all.element());
-            }
-        }));
-
         pipeline.run();
 
     }
@@ -103,7 +90,6 @@ public class beam_test_3 {
         options.setRunner(DirectRunner.class);
 
         run_2(options);
-
     }
 
 
