@@ -45,6 +45,8 @@ public class beam_test_1 {
                 System.out.append("\n");
             }
         }));
+
+
         return pipeline.run();
         /* 输出结果：
             ATrans流程运行中:

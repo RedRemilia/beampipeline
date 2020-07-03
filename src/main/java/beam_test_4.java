@@ -10,9 +10,10 @@ import org.apache.beam.sdk.values.PCollection;
 import org.apache.beam.vendor.bytebuddy.v1_10_8.net.bytebuddy.build.Plugin;
 
 public class beam_test_4 {
+    /*从本地读取文件，读入信息到内存中*/
     public static PipelineResult run_4(PipelineOptions options){
         Pipeline pipeline = Pipeline.create(options);
-
+        /*从文本文件中读取数据，并转化成KV键值对*/
         PCollection<String> input = pipeline.apply("read", TextIO.read().from("input/pipeline_input.txt"));
         input.apply("trans", ParDo.of(new DoFn<String, KV<String, String>>() {
             @ProcessElement
